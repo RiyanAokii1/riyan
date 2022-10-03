@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* { 
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; 
+  box-sizing: border-box;
+}
+
+body {
+  background: url(data:image/jpeg;base64,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); background-size: cover; background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  background-image: url(https://media.tenor.com/HatMdEPPjx0AAAAC/galaxy.gif); 
+  height: 80px;
+  width: 100%;
+
+}
+
+label.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 50px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 15px;
+  text-transform:  uppercase;
+}
+
+a:hover {
+  background-color: cyan;
+  color: black;
+  transition: .5s;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+hr {
+  margin-right: 35px;
+  margin-left: 35px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+p.atri{
+  font-size: 20px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  margin-left: 55px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+h3.lesson {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  margin-left: 50px;
+  margin-top: 15%;
+  padding: 10px;
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 55px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+h3.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 10%;
+  margin-left: 50px;
+}
+
+label {
+  margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+label.colom2 {
+  margin-top: 10px;
+}
+
+input {
+  margin-left: 50px;
+  block-size: 30px;
+}
+
+input.submit {
+  block-size: 20px;
+}
+
+footer {
+  padding: 10px;
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+  background:url(https://media.tenor.com/HatMdEPPjx0AAAAC/galaxy.gif); background-size: cover; background-repeat: no-repeat;
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 5px;
+}
